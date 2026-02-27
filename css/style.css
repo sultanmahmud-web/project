@@ -195,10 +195,15 @@ body{
     padding: 10px;
     box-shadow: 3px 1px 15px #FF003B;
 }
+.r_card:hover{
+    background: #000;
+    border-radius: 20px;
+    transition: 2s;
+}
 .r_card i{
-color: #ff003b;
+    color: #ff003b;
     padding: 20px;
-    background: #e65173d2;
+    background: #3d131cd2;
     border-radius: 50px;
     font-size: 30px;
     margin: 10px 0px;
