@@ -562,7 +562,9 @@ body{
     font-size: 36px;
 }
 .sign_up h3{}
-.sign_up input{}
+.sign_up input{
+    margin-bottom: 10px;
+}
 .sign_up button{}
 
 .footer{
@@ -571,3 +573,4 @@ body{
 .footer h5{}
 
 }
+
