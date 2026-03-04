@@ -62,7 +62,6 @@ body{
 }
 .ebook:hover{
     background: #fff;
-    border: 1px solid #FF003B;
     transition: 2s;
     color: #FF003B;
 }
@@ -193,12 +192,14 @@ body{
 .r_card{
     margin: 0px 31px;
     padding: 10px;
-    box-shadow: 3px 1px 15px #FF003B;
+    background: rgb(26, 25, 25);
+
 }
 .r_card:hover{
     background: #000;
     border-radius: 20px;
     transition: 2s;
+    box-shadow: 3px 1px 15px #FF003B;
 }
 .r_card i{
     color: #ff003b;
@@ -347,98 +348,226 @@ body{
 
 @media only screen and (min-width:320px) and (max-width:425px){
 
-body{}
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
 
-.header{}
-.logo{}
+}
+
+.header{
+    display: block;
+
+}
+.logo{
+    width: 100%;
+    text-align: center;
+
+}
 .logo h1{}
-.manu{}
+.manu{
+    display: none;
+    width: 100%;
+}
 .manu nav{}
 .manu ul{}
 .manu li{}
 .manu li a{}
 .manu li a:hover{}
 .active{}
-.btn{}
-.ebook{}
+.btn{
+    width: 100%;
+}
+.btn button{
+    margin: 2% 11%;
+}
+.ebook{
+    padding: 17px 0px;
+    width: 250px;
+}
 
-.hero{}
-.hero_one{}
-.hero_one img{}
-.hero_two{}
-.hero_two h5{}
-.hero_two h2{}
+.hero, .cards, .about_me, .r_cards, .program, .articles{
+    display: block;
+}
+.hero{
+    height: 950px;
+
+}
+.hero_one{
+    width: 100%;
+}
+.hero_one img{
+    margin: 4px 0px;
+    width: 100%;
+}
+.hero_two{
+    width: 100%;
+}
+.hero_two h5{
+    font-size: 16px;
+    text-align: center;
+}
+.hero_two h2{
+    font-size: 50px;
+    line-height: 57px;
+}
 .hero_two p{}
 
-.books{}
+.books{
+    width: 100%;
+    height: 1725px;
+
+}
 .books h5{}
-.books h2{}
-.books button{}
-.cards{}
-.card{}
+.books h2{
+    font-size: 32px;
+}
+.books button{
+    padding: 8px 0px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.cards{
+    width: 100%;
+}
+.card{
+    width: 100%;
+    margin: 5px 0px;
+}
 .card img{}
 .card h2{}
-.card p{}
+.card p{
+    font-size: 14px;
+}
 .card button{}
 
-.about_me{}
-.about_one{}
+.about_me{
+    width: 100%;
+    height: 550px;
+}
+.about_one{
+    width: 100%;
+    margin: 0;
+  }
 .about_one h5{}
-.about_one h2{}
+.about_one h2{
+    font-size: 30px;
+    margin: 0;
+}
 .about_one p{}
-.about_one button{}
-.about_two{}
+.about_one button{
+    margin: 41px 25px;
+}
+.about_two{
+    display: none;
+}
 .about_two img{}
 
-.result{}
+.result{
+    width: 100%;
+    height: 1670px;
+}
 .result_top{}
 .result_top h5{}
-.result_top h2{}
+.result_top h2{
+    font-size: 25px;
+}
 .result_bottom{}
-.r_cards{}
-.r_card{}
+.r_cards{
+    margin: 0;
+    width: 100%;
+}
+.r_card{
+    margin-top: 20px;
+}
 .r_card i{}
 .r_card h5{}
 .r_card p{}
 
-.program{}
-.pro_one{}
-.pro_one img{}
-.pro_two{}
+.program{
+    width: 100%;
+    height: 1030px;
+}
+.pro_one{
+    width: 100%;
+}
+.pro_one img{
+    width: 80%;
+    margin: 28px;
+}
+.pro_two{
+    width: 100%;
+    margin: 0px 2px;
+}
 .pro_two h5{}
 .pro_two h2{}
 .pro_two p{}
 .options{}
-.option{}
+.option{
+    font-size: 14px;
+    padding: 0px 0px 18px 0px;
+}
 .option i{}
 .option p{}
 
-.reviews{}
+.reviews{
+    width: 100%;
+    height: 550px;
+}
 .reviews h5{}
 .reviews h2{}
-.review{}
+.review{
+    margin: 0;
+    font-size: 12px;
+}
 .review img{}
 .review h3{}
 .review p{}
 
-.articles{}
-.article_one{}
+.articles{
+    width: 100%;
+    height: 1255px;
+}
+.article_one{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 .article_one h5{}
 .article_one h1{}
-.article_one p{}
-.article_card{}
+.article_one p{
+    font-size: 18px;
+}
+.article_card{
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+}
 .article_card img{}
-.article_card h3{}
-.article_card p{}
+.article_card h3{
+    margin: 0;
+    font-size: 18px;
+}
+.article_card p{
+    font-size: 15px;
+}
 
-.sign_up{}
+.sign_up{
+    width: 100%;
+    height: 465px;
+    margin: 0;
+}
 .sign_up h5{}
-.sign_up h1{}
+.sign_up h1{
+    font-size: 36px;
+}
 .sign_up h3{}
 .sign_up input{}
 .sign_up button{}
 
-.footer{}
+.footer{
+    width: 100%;
+}
 .footer h5{}
 
 }
